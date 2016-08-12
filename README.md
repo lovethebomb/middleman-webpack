@@ -9,7 +9,7 @@ This extension will add a WebSocket to which the frontend package [webpack-middl
 ## Installation
 If you already have a Middleman project:
 
-Add gem "middleman-webpack", "~> 0.0.1" to your Gemfile and run `bundle install`
+Add gem `"middleman-webpack", "~> 0.0.1"` to your Gemfile and run `bundle install`
 
 
 ### Configuration
@@ -29,7 +29,7 @@ There three different options that can be set:
 
 * `:host` Specify the host to which the WebSocket will bind to. *Default*: 0.0.0.0
 * `:port` Specify the port to which the WebSocket will bind to. *Default*: 25123
-* `:ignore` Array of /patterns/ to ignore. *Default*: 25123
+* `:ignore` Array of /patterns/ to ignore. *Default*: []
 
 #### Example
 ```ruby
